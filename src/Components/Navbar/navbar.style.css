@@ -1,0 +1,9 @@
+.navbar{
+    background-color: #171616;
+    padding: 20px;
+}
+.navbar a{
+    color: #c6bdbd;
+    font-size: 1.25em;
+    font-weight: bold;
+}

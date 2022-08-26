@@ -1,0 +1,36 @@
+.form-element{
+    margin-top: 35px;
+    position: relative;
+}
+.form-element form{
+    width: 100%;
+}
+
+.input-element{
+    border: none;
+    padding: 10px 20px;
+    background-color: #373737;
+    outline: none;
+    color: #c6bdbd;
+    font-size: 1em;
+    width: 70%;
+}
+
+.btn-pesquisar{
+    border: none;
+    background-color: #d3a80b;
+    padding: 10px 20px;
+   color: #fff;
+   font-size: 1em;
+   cursor: pointer;
+   transition: all 1s;
+}
+.btn-pesquisar:hover{
+    background-color: #816500;
+}
+
+@media only screen and (max-width: 767px) {
+    .input-element{
+        width: 30%;
+    }
+}

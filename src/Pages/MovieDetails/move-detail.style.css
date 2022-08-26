@@ -1,0 +1,42 @@
+.move-detail{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px; 
+    width: 80%;
+    margin: 50px auto;
+    color: #c6bdbd;
+}
+.move-detail .move-img .box img{
+    width: 100%;
+}
+.move-detail .move-info .overview{
+  max-width: 600px;
+}
+
+.overview p{
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+
+.move-info h2, h5, .overview{
+    margin-bottom: 15px;
+}
+
+.move-info .title{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #d3a80b;
+}
+
+.move-info .subtitle{
+    font-size: 1.1rem;
+}
+@media only screen and (max-width: 767px) {
+.move-detail{
+    display: block;
+}
+
+} 

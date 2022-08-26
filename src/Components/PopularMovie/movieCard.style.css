@@ -1,0 +1,11 @@
+.box{
+    margin-bottom: 30px;
+}
+.box img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box .title{
+    color: #c6bdbd;
+}
